@@ -6,3 +6,7 @@
 body{
     background-color: rgb(222, 138, 137);
 }   
+nav{
+    display: flex;
+    margin-left: 5rem;
+}
