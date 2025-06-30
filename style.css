@@ -5,8 +5,24 @@
 }
 body{
     background-color: rgb(222, 138, 137);
+    color: white;
 }   
 nav{
     display: flex;
-    margin-left: 5rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    font-size: 35px;
+}
+header{
+    margin-left: 20rem;
+}
+.instruction{
+    width: 45rem;
+    font-size: 20px;
+    margin-top: 1rem;
+}
+.middle{
+    background-color: black;
+    width: 15rem;
+    height: 15rem;
 }
