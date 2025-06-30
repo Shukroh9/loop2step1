@@ -23,6 +23,12 @@ header{
 }
 .middle{
     background-color: black;
-    width: 15rem;
-    height: 15rem;
+    width: 18rem;
+    height: 18rem;
+}
+section{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 5rem;
 }
