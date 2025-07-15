@@ -1,12 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+    border: 0;
     box-sizing: border-box;
 }
 body{
     background-color: rgb(222, 138, 137);
     color: white;
 }   
+main{
+    position: relative;
+}
 nav{
     display: flex;
     margin-top: 5rem;
@@ -21,14 +25,78 @@ header{
     font-size: 20px;
     margin-top: 1rem;
 }
+.pink:hover{
+    cursor: pointer;
+    color: rgb(241, 203, 202);
+}
 .middle{
     background-color: black;
     width: 18rem;
     height: 18rem;
+    align-items: flex-start;
+    padding-left: 4rem;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.action{
+    width: 5rem;
+    color: rgb(222, 138, 137);
+    font-size: 22px;
+}
+.previous, .after{
+    background-color: burlywood;
+}
+.pink{
+    color: rgb(236, 185, 184);
+    width: 900;
+}
+h3{
+    width: 5.5rem;
+    font-size: 30px;
 }
 section{
     display: flex;
     align-items: flex-start;
     justify-content: center;
     margin-top: 5rem;
+    margin-right: 3rem;
+}
+.startbutton{
+    position: absolute;
+    width: 15rem;
+    height: 3.5rem;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    left: 23%;
+    top: 95%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    text-decoration: none;
+    border-radius: 4px;
+}
+.arrow::before{
+    width: 6rem;
+    height: 6rem;
+    background-color: aqua;
+    top: -5px;
+    border: 0 0 5px 5px;
+    content: '';
+    left: -17px;
+    transform: scale(1.05);
+    right: -40px;
+}
+.time{
+    background-color: rgb(62, 60, 61);
+}
+.temperature{
+    background-color: rgb(53, 51, 52);
+}
+.capacity{
+    background-color: rgb(32, 30, 31);
+}
+button:hover{
+    cursor: pointer;
+
 }
